@@ -52,7 +52,7 @@ section > p{
     padding-bottom: 2em;
 }
 section.normal {
-
+    background-color: white;
 }
 section.imagem {
     background-color: rgb(224, 54, 54);
