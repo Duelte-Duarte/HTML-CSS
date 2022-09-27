@@ -16,6 +16,15 @@
         float: right;
         width: 65%;
     }
+    form > input[type=submit] {
+        width: 65%;
+    }
+    form > div > input#ilogin {
+        width: 55%;
+    }
+    form > div > input#isenha {
+        width: 55%;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -39,5 +48,14 @@
     }
     div#formulario > p {
         font-size: 1.2em;
+    }
+    form > input[type=submit] {
+        width: 50%;
+    }
+    form > div > input#ilogin {
+        width: 40%;
+    }
+    form > div > input#isenha {
+        width: 40%;
     }
 }
