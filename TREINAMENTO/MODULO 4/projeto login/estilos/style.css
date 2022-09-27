@@ -71,18 +71,30 @@ div.campo > label {
     display: none;
 }
 
-form > div > input#ilogin {
-    width: 80%;
+div.campo > span {
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
-form > div > input#isenha {
+
+div.campo > input {
     width: 80%;
+    height: 30px;
+    border-radius: 5px;
+    border: 0px;
+    transform: translateY(-10px);
+}
+
+div.campo > input:focus-within {
+    background-color: #49a09d45;
 }
 
 form > input[type=submit] {
     display: block;
     font-size: 1em;
-    width: 100%;
+    width: 90%;
     height: 30px;
+    margin: auto;
     background-color: #49a09d;
     color: white;
     border: none;
